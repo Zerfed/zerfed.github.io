@@ -134,7 +134,7 @@ div {
 
 @media (max-width: 810px) {
     #ch {
-        font-size: calc(4.5vw + 20px);
+        font-size: calc(3.5vw + 12px);
     }
 
     .mainwrap {
