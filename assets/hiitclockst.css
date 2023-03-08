@@ -126,7 +126,8 @@ input {
     }
     
     #exit:hover {
-        border-color: transparent rgb(227, 132, 255) transparent transparent;
+        border-color: rgb(227, 132, 255);
+        color: rgb(227, 132, 255);
     }
 
     .tr:hover {
@@ -168,7 +169,7 @@ input {
 
 .topwrapper {
     position: absolute;
-    top: 6%;
+    top: 3%;
     height: 100px;
     width: 100%;
     display: flex;                  /* establish flex container */
@@ -180,7 +181,7 @@ input {
 
 .bottomwrapper {
     position: absolute;
-    bottom: 6%;
+    bottom: 3%;
     height: 100px;
     width: 100%;
     display: flex;                  /* establish flex container */
@@ -248,20 +249,27 @@ input {
 }
 
 #exit {
-    z-index: 1099999;
     position: absolute;
-    height: 60px;
-    width: 60px;
-    line-height: 30px;
-    top: 0;
-    right: 0;
-    font-size: 50px;
+    z-index: 1099999;
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    line-height: 40px;
+    top: 69%;
+    transform: rotate(45deg);
+    left: calc(50% - 35px);
+    color: rgb(134, 93, 255);
+    border: 4px solid rgb(134, 93, 255);
+    font-family: Arial;
+    font-size: 80px;
     font-weight: lighter;
 }
 
 
 #exit:active {
-    border-color: transparent rgb(134, 93, 255) transparent transparent;
+    border-color: rgb(134, 93, 255);
+    color: rgb(134, 93, 255);
 }
 
 .state {   
@@ -286,6 +294,3 @@ input {
     font-size: 32px;
     margin-bottom: 10px;
 }
-
-
-
