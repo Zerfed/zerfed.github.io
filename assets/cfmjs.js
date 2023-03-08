@@ -161,7 +161,7 @@ addEventListener("load", (event) => {
                         document.getElementById(tiles[i].locations[j].tag + '-m').style.backgroundColor = color;
                     }
                     document.getElementById(tiles[i].tag).style.borderLeft = '10px solid '+color;
-                }, 200*i);
+                }, 100*i);
             }
         });
     });
