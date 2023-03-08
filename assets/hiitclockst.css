@@ -258,7 +258,7 @@ input {
     line-height: 40px;
     top: 69%;
     transform: rotate(45deg);
-    left: calc(50% - 35px);
+    left: calc(50% - 40px);
     color: rgb(134, 93, 255);
     border: 4px solid rgb(134, 93, 255);
     font-family: Arial;
