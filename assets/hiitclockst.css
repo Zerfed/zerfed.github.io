@@ -152,7 +152,7 @@ input {
 
 .topwrapper {
     position: absolute;
-    top: 30px;
+    top: 6%;
     height: 100px;
     width: 100%;
     display: flex;                  /* establish flex container */
@@ -164,7 +164,7 @@ input {
 
 .bottomwrapper {
     position: absolute;
-    bottom: 30px;
+    bottom: 6%;
     height: 100px;
     width: 100%;
     display: flex;                  /* establish flex container */
