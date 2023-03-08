@@ -117,8 +117,8 @@ input {
       width: 100%;
     }
     #exit {
-      top: 72%;
-      right: calc(50% - 30px);
+      top: 72% !important;
+      right: calc(50% - 30px) !important;
     }
 }
 
