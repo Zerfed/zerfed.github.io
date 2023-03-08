@@ -156,7 +156,7 @@ input {
 
 #time{
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(134, 93, 255);
@@ -288,13 +288,3 @@ input {
     text-align: center;
 }   
 
-.timetext {
-    top: 0;
-    width: 50%;
-    display: inline-block;
-    position: relative;
-    color: rgb(134, 93, 255);
-    font-family: 'Roboto';
-    font-size: 32px;
-    margin-bottom: 10px;
-}
