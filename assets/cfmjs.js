@@ -149,17 +149,19 @@ addEventListener("load", (event) => {
                 cancelable: true
             });
             for (let i = 0; i < tiles.length; i++) {
-                let color = `hsl(${Math.round(360 / tiles.length * (2 * i))}, 100%, 70%)`;
-                tiles[i].toHTML()
-                for (let j = 0; j < tiles[i].locations.length; j++) {
-                    document.getElementById(tiles[i].locations[j].tag).style.backgroundColor = color;
-                    document.getElementById(tiles[i].locations[j].tag).addEventListener('click', function (event) {
-                        map.flyTo([tiles[i].locations[j].latitude + 0.0002, tiles[i].locations[j].longitude], 18);
-                        document.getElementById(tiles[i].locations[j].tag + '-m').dispatchEvent(clickEvent);
-                    });
-                    document.getElementById(tiles[i].locations[j].tag + '-m').style.backgroundColor = color;
-                }
-                document.getElementById(tiles[i].tag).style.borderLeft = '10px solid '+color;
+                setTimeout(() => {
+                    let color = `hsl(${Math.round(360 / tiles.length * (2 * i))}, 100%, 70%)`;
+                    tiles[i].toHTML()
+                    for (let j = 0; j < tiles[i].locations.length; j++) {
+                        document.getElementById(tiles[i].locations[j].tag).style.backgroundColor = color;
+                        document.getElementById(tiles[i].locations[j].tag).addEventListener('click', function (event) {
+                            map.flyTo([tiles[i].locations[j].latitude + 0.0002, tiles[i].locations[j].longitude], 18);
+                            document.getElementById(tiles[i].locations[j].tag + '-m').dispatchEvent(clickEvent);
+                        });
+                        document.getElementById(tiles[i].locations[j].tag + '-m').style.backgroundColor = color;
+                    }
+                    document.getElementById(tiles[i].tag).style.borderLeft = '10px solid '+color;
+                }, 200*i);
             }
         });
     });
