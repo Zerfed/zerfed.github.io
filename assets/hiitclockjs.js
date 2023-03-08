@@ -1,9 +1,12 @@
 function clamp(num, min, max) {
+    if(num == null) {
+    return min;
+    }
     return num <= min 
       ? min 
       : num >= max 
         ? max 
-        : num
+        : num;
 }
 
 var beep = new Audio('./assets/beep.mp3');
