@@ -108,12 +108,12 @@ input {
     }
     .titlewrap {
       height: 50%;
-      min-height: 400px;
+      min-height: 600px;
       width: 100%;
     }
     .sidewrap {
       height: 50%;
-      min-height: 400px;
+      min-height: 600px;
       width: 100%;
     }
 }
