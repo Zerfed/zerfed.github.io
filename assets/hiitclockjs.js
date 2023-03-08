@@ -1,5 +1,5 @@
 function clamp(num, min, max) {
-    if(num == null) {
+    if(num == '') {
     return min;
     }
     return num <= min 
