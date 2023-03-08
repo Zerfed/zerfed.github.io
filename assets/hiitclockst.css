@@ -252,17 +252,17 @@ input {
     position: absolute;
     z-index: 1099999;
     position: fixed;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
-    line-height: 40px;
+    line-height: 30px;
     top: 69%;
     transform: rotate(45deg);
-    left: calc(50% - 40px);
+    left: calc(50% - 30px);
     color: rgb(134, 93, 255);
     border: 4px solid rgb(134, 93, 255);
     font-family: Arial;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: lighter;
 }
 
