@@ -115,7 +115,7 @@ input {
     }
 }
 
-@media (hover: hover) {
+@media (hover: hover) and (pointer: fine) {
     #pause:hover {
         border-color: transparent transparent transparent rgb(227, 132, 255);
     }
