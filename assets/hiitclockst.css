@@ -30,6 +30,7 @@ h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 34px;
     font-weight: 900;
+    cursor: pointer;
 }
 
 #launch:active {
@@ -56,6 +57,7 @@ input {
     border-radius: 8px;
     color: rgb(227, 132, 255);
     font-size: 24px;
+    cursor: pointer;
 }
 
 .formwrapper {
@@ -241,6 +243,7 @@ input {
     font-family: monospace;
     font-weight: bolder;
     text-align: center;
+    cursor: pointer;
 }
   
 
@@ -264,6 +267,7 @@ input {
     font-family: Arial;
     font-size: 60px;
     font-weight: lighter;
+    cursor: pointer;
 }
 
 
