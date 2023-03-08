@@ -30,10 +30,6 @@ h1 {
     font-weight: 900;
 }
 
-#launch:hover {
-    background-color: rgb(227, 132, 255);
-}
-
 #launch:active {
     background-color: rgb(134, 93, 255);
 }
@@ -118,6 +114,24 @@ input {
     }
 }
 
+@media (hover: hover) {
+    #pause:hover {
+        border-color: transparent transparent transparent rgb(227, 132, 255);
+    }
+    
+    #launch:hover {
+        background-color: rgb(227, 132, 255);
+    }
+    
+    #exit:hover {
+        border-color: transparent rgb(227, 132, 255) transparent transparent;
+    }
+
+    .tr:hover {
+        color: rgb(227, 132, 255);
+    }
+    
+}
 
 
 #maintimer.fullscreen{
@@ -209,10 +223,6 @@ input {
     border-width: 37px 0px 37px 60px;
 }
 
-#pause:hover {
-    border-color: transparent transparent transparent rgb(227, 132, 255);
-}
-
 #pause:active {
     border-color: transparent transparent transparent rgb(134, 93, 255);
 }
@@ -231,10 +241,6 @@ input {
 }
   
 
-.tr:hover {
-    color: rgb(227, 132, 255);
-}
-
 .tr:active {
     color: rgb(134, 93, 255);
 }
@@ -251,9 +257,6 @@ input {
     font-weight: lighter;
 }
 
-#exit:hover {
-    border-color: transparent rgb(227, 132, 255) transparent transparent;
-}
 
 #exit:active {
     border-color: transparent rgb(134, 93, 255) transparent transparent;
