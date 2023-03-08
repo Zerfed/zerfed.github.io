@@ -1,6 +1,6 @@
 function clamp(num, min, max) {
-    if(num == '') {
-    return min;
+    if(Number.isNaN(num)) {
+    	return min;
     }
     return num <= min 
       ? min 
