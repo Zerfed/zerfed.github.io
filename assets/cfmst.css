@@ -155,7 +155,7 @@ div {
 
 @media (max-width: 548px) {
     #ch {
-        font-size: calc(10.2vw - 2px);
+        font-size: calc(10.2vw - 10px);
     }
 
     .navwrap {
